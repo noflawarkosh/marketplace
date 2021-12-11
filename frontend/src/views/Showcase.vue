@@ -1,6 +1,6 @@
 <template>
-  <div class="About">
-    ABOUT
+  <div class="Showcase">
+    SHOWCASE
 
     <div class="container">
       <div class="row">
@@ -15,7 +15,7 @@
   import Carousel from "@/components/Carousel";
 
   export default {
-    name: 'About',
+    name: 'Showcase',
     components: {Carousel},
     
   }
