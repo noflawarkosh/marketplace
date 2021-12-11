@@ -1,10 +1,13 @@
 <template>
   <div class="Sales">
-    Sales
-
+    
     <div class="container">
       <div class="row">
-
+          <PromoCenter></PromoCenter>
+          <div class="row align-items-md-stretch">
+            <PromoStretchDark></PromoStretchDark>
+            <PromoStretchLight></PromoStretchLight>
+          </div>
       </div>
     </div>
   </div>
@@ -12,11 +15,13 @@
 
 
 <script>
-  import Carousel from "@/components/Carousel";
+  import PromoCenter from "@/components/PromoCenter";
+  import PromoStretchDark from "@/components/PromoStretchDark";
+  import PromoStretchLight from "@/components/PromoStretchLight";
 
   export default {
     name: 'Sales',
-    components: {Carousel},
+    components: {PromoCenter, PromoStretchDark, PromoStretchLight},
     
   }
 </script>
